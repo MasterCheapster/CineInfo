@@ -1,5 +1,6 @@
 body {
     font-family: "poppins";
+    background-color:antiquewhite;
 }
 
 .title{
@@ -18,9 +19,9 @@ body {
   }
 .home {
     color:  rgb(239, 229, 229);
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(/images/background.png);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(/images/back.png);
     background-size: cover;
-    background-position: center;
+    background-position: inherit;
 }
 
 footer {
@@ -31,6 +32,9 @@ footer {
     font-weight: 700;
     text-align: center;
     font-size: 4rem;
+}
+.card{
+    background-color:oldlace;
 }
 
 .movie-card {
